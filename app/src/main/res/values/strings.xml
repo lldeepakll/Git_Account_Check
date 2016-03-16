@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Git Account Check</string>
+    <string name="che">Check Your GitHub Account</string>
+    <string name="check">check</string>
+    <string name="gitC">gitIcon</string>
+</resources>

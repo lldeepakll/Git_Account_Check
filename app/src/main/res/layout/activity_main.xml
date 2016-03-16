@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context="com.git_api.gitaccountcheck.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <ImageView
+            android:src="@drawable/git"
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:textColor="@color/colorGit"
+            android:text="@string/che"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <!--  username Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp">
+            <EditText android:id="@+id/input_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textColor="@color/colorGit"
+                android:textColorHint="#99000000"
+                android:hint="Your Git Username" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/checkButton"
+            android:text="@string/check"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:layout_marginBottom="120dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/custom_button"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
