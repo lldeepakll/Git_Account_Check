@@ -11,6 +11,6 @@ for github api : https://api.github.com/ <br>
   
   For image downloading, i am using most powerful library Picasso<br>
   https://github.com/square/picasso <br>
-  in your gradle you should add
+  in your gradle you should add<br>
   compile 'com.squareup.picasso:picasso:2.5.2'
   
