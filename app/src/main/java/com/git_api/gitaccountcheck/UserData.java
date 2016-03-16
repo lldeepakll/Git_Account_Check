@@ -1,7 +1,9 @@
 package com.git_api.gitaccountcheck;
 
 /**
- * Created by HP LAPTOP on 15-03-2016.
+ * Created by Deepak Kumar on 16-03-2016.
+ * User Data provider class
+ * getter setter
  */
 public class UserData {
 
