@@ -2,7 +2,7 @@
 In this Android Project, I am working with github api.
 
 
-In this project we use, following link :
+In this project you should use, following link :
 
 for github api : https://api.github.com/ <br>
                  https://api.github.com/user
@@ -12,7 +12,9 @@ for github api : https://api.github.com/ <br>
   For image downloading, i am using most powerful library Picasso<br>
   https://github.com/square/picasso <br>
   in your gradle you should add<br>
+  <code>
   compile 'com.squareup.picasso:picasso:2.5.2'
+  </code>
   
   <br>
   ![one_1](https://cloud.githubusercontent.com/assets/17099115/13815953/954974f4-ebb2-11e5-98a3-9aa9a0ecdf03.png)
